@@ -19,21 +19,23 @@ object Dependencies {
     val quillPostgresAsync = "io.getquill" %% "quill-async-postgres" % Versions.quill
     val refined = "eu.timepit" %% "refined" % Versions.refined
     val scalaTest = "org.scalatest" %% "scalatest" % Versions.scalaTest % "test"
+    val scalaTestKafka = "net.manub" %% "scalatest-embedded-kafka" % Versions.scalaTestKafka % "test"
     val shapeless = "com.chuusai" %% "shapeless" % Versions.shapeless
 }
 
 object Versions {
-    val akka = "2.4.10"
-    val cats = "0.7.2"
-    val circe = "0.5.1"
-    val doobie = "0.3.1-SNAPSHOT"
-    val monix = "2.0.1"
+    val akka = "2.4.16"
+    val cats = "0.8.1"
+    val circe = "0.6.1"
+    val doobie = "0.3.1-M3"
+    val monix = "2.1.2"
     val mysql = "5.1.38"
     val postgres = "9.4.1208"
-    val quill = "0.10.1-SNAPSHOT"
-    val refined = "0.5.0"
-    val scala = "2.11.8"
-    val scalaTest = "3.0.0"
+    val quill = "1.0.1"
+    val refined = "0.6.0"
+    val scala = "2.12.1"
+    val scalaTest = "3.0.1"
+    val scalaTestKafka = "0.11.0"
     val shapeless = "2.3.2"
 }
 
